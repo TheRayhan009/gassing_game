@@ -22,7 +22,7 @@ To play the game, simply clone this repository and run the Python script.
 
 bash
 Copy code
-git clone <repository_url>
+git clone <repository_url> \n
 cd number-guessing-game
 python number_guessing_game.py
 # About the Developer
