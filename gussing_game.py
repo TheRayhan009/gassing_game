@@ -6,9 +6,9 @@ def start():
     start1='''
 ____________________________________________________________________________________________________________
 |                                              WELLCOME!!                                                   |
-|                                   This is a numbre gassing game.                                          |
-|                                       The numbers are 1 - 100                                             |
-|                                      You have 30 chancs to gess.                                          |
+|                                   This is a numbre gussing game.                                          |
+|                                       The numbers are 1 - 1000                                             |
+|                                      You have 30 chance to guss.                                          |
 |                                                                                                           |
 |                                              --info--                                                     |
 |                                        The game made by TheRayhan PY .                                    |
@@ -68,7 +68,7 @@ while True:
         x+=1
     if q==0:
         point=0
-        print("\n \n you difited..!!  your point is : ",point)
+        print("\n \n You defeated..!!  your point is : ",point)
         play_or_not()
         yorno=input()
         if yorno=="n":
@@ -77,7 +77,7 @@ while True:
         if yorno=="y":
             continue
         else:
-            print("error : invalid input")
+            print("error : Invalid input")
             break
     elif q==1:
         print("you got it!! your point is : ",point)
@@ -89,7 +89,7 @@ while True:
         if yorno=="y":
             continue
         else:
-            print("error : invalid input")
+            print("error : Invalid input")
             break
             
         
