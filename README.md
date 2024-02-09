@@ -21,10 +21,10 @@ Decide whether to play again or exit the game after each round.
 To play the game, simply clone this repository and run the Python script.
 
 bash
-Copy code
-git clone <repository_url> \n
-cd number-guessing-game
-python number_guessing_game.py
+Copy code : 
+git clone <repository_url> 
+ cd number-guessing-game
+ python number_guessing_game.py
 # About the Developer
 This game was developed by TheRayhan PY using Python. If you have any questions, feedback, or suggestions, feel free to reach out!
 
