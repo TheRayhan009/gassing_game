@@ -28,6 +28,7 @@ ________________________________________________________________________________
 
 def play_or_not():
     # This is a text asking you want to play again or not .
+
     play='''
     
 ____________________________________________________________________________________________________________
@@ -67,14 +68,15 @@ while True:
             break
         else:
             print("it's not right.!")
+            #that is giveing you hints.
             if num>the_gussing_numbre:
                 print("it's too long.")
             elif num<the_gussing_numbre:
                 print("it's too small.")
+            #That is telling you how many charles you have.
             print("Charles Remaining",x)
         
     if q==0:
-        point=0
         print("\n \n You defeated..!!  your point is : ",point)
         play_or_not()
         yes_or_no=input()
@@ -84,6 +86,7 @@ while True:
         if yes_or_no=="y"or yes_or_no=="Y":
             continue
         else:
+            # it is a input error.It will come only when you give something other than yes(y/Y) or no(n/N)
             print("error : Invalid input")
             break
     elif q==1:
@@ -96,6 +99,7 @@ while True:
         if yes_or_no=="y"or yes_or_no=="Y":
             continue
         else:
+            # it is a input error.It will come only when you give something other than yes(y/Y) or no(n/N)
             print("error : Invalid input")
             break
             
