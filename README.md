@@ -1,4 +1,4 @@
- # Number Guessing Game
+ **# Number Guessing Game**
 Welcome to the Number Guessing Game! This Python-based game challenges you to guess a randomly generated number within a range of 1 to 1000. You have 30 attempts to guess the correct number. Let's dive into the details:
 
 # Description
@@ -21,10 +21,13 @@ Decide whether to play again or exit the game after each round.
 To play the game, simply clone this repository and run the Python script.
 
 bash
-Copy code : 
-git clone <repository_url> 
- cd number-guessing-game
+**Copy code :**
+**git clone <repository_url>**
+ **cd number-guessing-game**
  python number_guessing_game.py
+
+ [Link text](https://github.com/TheRayhan009/gassing_game)
+
 # About the Developer
 This game was developed by TheRayhan PY using Python. If you have any questions, feedback, or suggestions, feel free to reach out!
 
