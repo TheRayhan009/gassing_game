@@ -8,7 +8,7 @@ point=0
 first_txt=0
 def start():
     # this is the welcome text.You will see this text first when you start playing this game.
-    
+
     start1='''
     
 ____________________________________________________________________________________________________________
@@ -29,7 +29,7 @@ ________________________________________________________________________________
 def play_or_not():
     # This is a text asking you want to play again or not .
     play='''
-
+    
 ____________________________________________________________________________________________________________
 |                                          You want to play again?                                          |
 |                                               To yes press (y)                                            |           
@@ -51,13 +51,14 @@ ________________________________________________________________________________
     
 while True:
     the_gussing_numbre=random.randint(1 , 1000)
-    x=29
+    x=30
     q=0
     if first_txt==0:
         start()
     else:
         gogo()
     while x>0:
+        x-=1
         first_txt=1
         num=int(input())
         if num==the_gussing_numbre:
@@ -71,7 +72,7 @@ while True:
             elif num<the_gussing_numbre:
                 print("it's too small.")
             print("Charles Remaining",x)
-        x-=1
+        
     if q==0:
         point=0
         print("\n \n You defeated..!!  your point is : ",point)
