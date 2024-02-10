@@ -26,7 +26,7 @@ bash
  **cd number-guessing-game**
  python number_guessing_game.py
 
- [Link text](https://github.com/TheRayhan009/gassing_game)
+ [codeforces__link]([https://github.com/TheRayhan009/gassing_game](https://codeforces.com/profile/therayhan009))
 
    # About the Developer
 This game was developed by TheRayhan PY using Python. If you have any questions, feedback, or suggestions, feel free to reach out!
